@@ -303,6 +303,7 @@ footer.sticky-bottom {
     
     .list-group-item {
       background-color: inherit;
+      border-color: var(--global-divider-color) !important;
 
       .badge {
         color: var(--global-card-bg-color) !important;
@@ -446,6 +447,16 @@ footer.sticky-bottom {
   }
 }
 
+// Search
+.search {
+  input {
+    height: 1.875em;
+  }
+  select {
+    height: 1.875em;
+  }
+}
+
 
 // Publications
 
@@ -505,7 +516,7 @@ footer.sticky-bottom {
         }
       }
       .title {
-        font-weight: bolder;
+        font-weight: bold;
       }
       .author {
         a {
@@ -569,6 +580,24 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
+    }
+  }
+  .pubtype-1 {
+    .badge {
+      color: var(--pubtype1-color) !important;
+      background-color: var(--pubtype1-bg-color) !important;
+    }
+  }
+  .pubtype-2 {
+    .badge {
+      color: var(--pubtype2-color) !important;
+      background-color: var(--pubtype2-bg-color) !important;
+    }
+  }
+  .pubtype-3 {
+    .badge {
+      color: var(--pubtype3-color) !important;
+      background-color: var(--pubtype3-bg-color) !important;
     }
   }
 }

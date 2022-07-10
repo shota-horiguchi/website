@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-06-15 09:43:00+0900
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+One paper has been accepted to INTERSPEECH 2022

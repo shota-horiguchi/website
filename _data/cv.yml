@@ -1,97 +1,99 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Shota Horiguchi
+#     - name: Date of Birth
+#       value: 14th March 1879
+#     - name: Languages
+#       value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Computer Science
+      institution: University of Tsukuba, Ibaraki, Japan
+      year: 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Supervisor: Takeshi Yamada"
+    - title: ME in Information Science and Technology
+      institution: The University of Tokyo, Tokyo, Japan
+      year: 2015 - 2017
       description:
-        - Description 1.
-        - Description 2.
+        - "Supervisor: Prof. Kiyoharu Aizawa"
+        - "Thesis title: Personalized Object Recognition"
+    - title: BE in Information and Communication Engineering
+      institution: The Universityu of Tokyo, Tokyo, Japan
+      year: 2011 - 2015
+      description:
+        - "Supervisor: Prof. Kiyoharu Aizawa"
 
-- title: Experience
+- title: Work Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Senior Researcher
+      institution: Hitachi, Ltd. Research and Development Group
+      year: 2021 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Leader of speech technology team
+        - title: Research topic
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Speaker diarization
+    - title: Researcher
+      institution: Hitachi, Ltd. Research and Development Group
+      year: 2017 - 2021
       description:
-        - Description 1.
-        - Description 2.
+        - title: Research topic
+          contents:
+           - Multimodal enviromnental recognition for human-robot interaction (2017-2019)
+           - Meeting transcription using distributed microphones (2019-)
+           - Speaker diarization
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - title: 2nd prize in <a href="https://dihardchallenge.github.io/dihard3/">The Third DIHARD Speech Diarization Challenge (DIHARD III)</a>
+      year: 2021
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - As the Hitachi-JHU team
+        -  <a href="">Technical report</a>
+        - In charge of EEND-EDA, EEND as post-processing, and system ensemble
+    - title: 2nd prize in <a href="https://spandh.dcs.shef.ac.uk//chime_challenge/CHiME5/index.html">The 5th CHiME Speech Separation and Recognition Challenge (CHiME-5)</a>
+      year: 2018
       items:
-        - Description 1.
-        - Description 2.
+        - As the Hitachi-JHU team
+        - <a href="https://spandh.dcs.shef.ac.uk//chime_workshop/chime2018/papers/CHiME_2018_paper_kanda.pdf">Technical report</a>
+        - In charge of speech separation and server cooling 🌬️
+    - title: ITE Outstanding Research Presentation Award
+      year: 2017
+      items: 
+        - For the presentation in PRMU, Mar, 2015
 
-- title: Other Interests
+- title: Membership
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+  - Institute of Electrical and Electronics Engineers (IEEE)
+  - "Acoustic Society of Japan (ASJ): No. 22704"
+
+- title: Academic Service
+  type: nested_list
+  contents:
+    - title: Session chair
+      items: 
+        - IEEE ICASSP 2022 (at Singapore)
+    - title: Review experience
+      items:
+        - "Journal: IEEE Transactions on Pattern Recognition and Machine Intelligence, IEEE Transactions on Multimedia, IEEE Transactions on Audio, Speech and Language Processing, IEEE Transactions on Neural Networks and Learning Systems, Elsevier Neural Networks, Elsevier Computer Speech & Language"
+        - "Conference: ICASSP (2019--2022), ICML (2020), MLSP (2021), EUSIPCO (2021--2022) DCASE (2020--2021), APSIPA (2021), RO-MAN (2022)"
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

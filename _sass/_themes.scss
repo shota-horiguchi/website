@@ -3,18 +3,24 @@
  ******************************************************************************/
  
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #{$grey-color-at};
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
+  --global-text-color: #{$navy-color-at};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
+  --global-theme-color: #{$red-color-at};
+  --global-hover-color: #{$red-color-at};
+  --global-footer-bg-color: #{$navy-color-at};
+  --global-footer-text-color: #{$white-color};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0,0,0,.1);
   --global-card-bg-color: #{$white-color};
+  --pubtype1-color: #{$grey-color-at};
+  --pubtype1-bg-color: #{$red-color-p};
+  --pubtype2-color: #{$navy-color-at};
+  --pubtype2-bg-color: #{$yellow-color-p};
+  --pubtype3-color: #{$navy-color-at};
+  --pubtype3-bg-color: #{$green-color-p};
 
   .fa-sun {
     display : none;
@@ -27,18 +33,26 @@
 }
 
 html[data-theme='dark'] {
-  --global-bg-color: #{$grey-color-dark};
+  --global-bg-color: #{$navy-color-w};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color-light};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --global-theme-color: #{$sky-color-w};
+  --global-hover-color: #{$sky-color-w};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
+  --global-card-bg-color: #{$navy-color-w};
+  --pubtype1-color: #{$grey-color-light};
+  --pubtype1-bg-color: #{$red-color-p};
+  --pubtype2-color: #{$navy-color-w};
+  --pubtype2-bg-color: #{$yellow-color-p};
+  --pubtype3-color: #{$navy-color-w};
+  --pubtype3-bg-color: #{$white-color};
+  --pubtype3-color: #{$navy-color-at};
+  --pubtype3-bg-color: #{$green-color-p};
 
   .fa-sun {
     padding-left: 10px;
