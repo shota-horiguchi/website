@@ -73,16 +73,16 @@ dblp_url: https://dblp.org/pid/191/2558.html  # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  Last update: 11 Jul 2020
+  Last update: 11 Jul 2022
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
+google_analytics: G-P6BWHPEXT6 # your google-analytics ID (format: UA-XXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
-google_site_verification:  # your google-site-verification ID (Google Search Console)
+google_site_verification: google96b932a7b4e451e1.html # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
