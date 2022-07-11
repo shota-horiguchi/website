@@ -22,7 +22,8 @@ nav_order: 1
         <option value=".pubtype-all">Type</option>
         <option value=".pubtype-1">Journal article</option>
         <option value=".pubtype-2">Conference paper</option>
-        <option value=".pubtype-3">Preprint</option>
+        <option value=".pubtype-3">System description</option>
+        <option value=".pubtype-4">Preprint</option>
       </select>
     </div>
     <div class="col-auto">
@@ -48,6 +49,9 @@ nav_order: 1
     {% bibliography -f conference -q @*[year={{y}}]* %}
     </div>
     <div class="pubtype-all pubtype-3">
+    {% bibliography -f competition -q @*[year={{y}}]* %}
+    </div>
+    <div class="pubtype-all pubtype-4">
     {% bibliography -f preprint -q @*[year={{y}}]* %}
     </div>
   </div>

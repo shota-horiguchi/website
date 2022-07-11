@@ -600,6 +600,12 @@ footer.sticky-bottom {
       background-color: var(--pubtype3-bg-color) !important;
     }
   }
+  .pubtype-4 {
+    .badge {
+      color: var(--pubtype4-color) !important;
+      background-color: var(--pubtype4-bg-color) !important;
+    }
+  }
 }
 
 // Rouge Color Customization

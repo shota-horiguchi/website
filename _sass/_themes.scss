@@ -21,6 +21,8 @@
   --pubtype2-bg-color: #{$yellow-color-p};
   --pubtype3-color: #{$navy-color-at};
   --pubtype3-bg-color: #{$green-color-p};
+  --pubtype4-color: #{$grey-color-at};
+  --pubtype4-bg-color: #{$blue-color-p};
 
   .fa-sun {
     display : none;
@@ -53,6 +55,8 @@ html[data-theme='dark'] {
   --pubtype3-bg-color: #{$white-color};
   --pubtype3-color: #{$navy-color-at};
   --pubtype3-bg-color: #{$green-color-p};
+  --pubtype4-color: #{$grey-color-light};
+  --pubtype4-bg-color: #{$blue-color-p};
 
   .fa-sun {
     padding-left: 10px;
