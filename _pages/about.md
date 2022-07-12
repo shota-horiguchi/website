@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a senior researcher at [Hitachi, Ltd.](https://www.hitachi.com/) Research and Development Group. I am also enrolled in a doctoral course at the [Multimedia Laboratory](https://www.mmlab.cs.tsukuba.ac.jp/english/) of [University of Tsukuba](https://www.tsukuba.ac.jp/en/), supervised by [Assoc. Prof. Takeshi Yamada](https://www.mmlab.cs.tsukuba.ac.jp/~takeshi/english/).
+I am a senior researcher at [Hitachi, Ltd.](https://www.hitachi.com/) Research and Development Group, working on speech-related technology. I am also a doctoral student at the [Multimedia Laboratory](https://www.mmlab.cs.tsukuba.ac.jp/english/) of [University of Tsukuba](https://www.tsukuba.ac.jp/en/), supervised by [Assoc. Prof. Takeshi Yamada](https://www.mmlab.cs.tsukuba.ac.jp/~takeshi/english/).
 
 Previously, I studied computer vision at the Aizawa-Yamasaki Laboratory (now [Aizawa-Yamakata-Matsui Laboratory](http://www.hal.t.u-tokyo.ac.jp/lab/en/)) of [the University of Tokyo](https://www.u-tokyo.ac.jp/en/index.html), where I received BE and ME degrees under the supervision of [Prof. Kiyoharu Aizawa](https://www.hal.t.u-tokyo.ac.jp/~aizawa/).
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
