@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Shota Horiguchi # the website title (if blank, full name will be used instead)
 first_name: Shota
 middle_name: 
 last_name: Horiguchi
@@ -11,7 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Shota Horiguchi's personal webpage.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: Shota Horiguchi  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🐧  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -214,7 +214,7 @@ scholar:
 
   style: apa
   locale: en
-  sort_by: [year, month]
+  sort_by: [year, month, date, pages]
   order: descending
 
   source: /_bibliography/
