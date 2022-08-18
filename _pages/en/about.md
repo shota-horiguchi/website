@@ -16,6 +16,7 @@ subtitle: shota.horiguchi.wk [at] hitachi.com / horiguchi [at] ieee.org
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+lang: en
 ---
 
 I am a senior researcher at [Hitachi, Ltd.](https://www.hitachi.com/) Research and Development Group, working on speech-related technology. I am also a doctoral student at the [Multimedia Laboratory](https://www.mmlab.cs.tsukuba.ac.jp/english/) of [University of Tsukuba](https://www.tsukuba.ac.jp/en/), supervised by [Assoc. Prof. Takeshi Yamada](https://www.mmlab.cs.tsukuba.ac.jp/~takeshi/english/).

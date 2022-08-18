@@ -2,10 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Shota Horiguchi / 堀口 翔太 # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Shota
 middle_name: 
 last_name: Horiguchi
+first_name_ja: 翔太
+last_name_ja: 堀口
 # email: you@example.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Shota Horiguchi's personal webpage.
@@ -13,13 +15,26 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: Shota Horiguchi  # add your own keywords or leave empty
 
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+# lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🐧  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://shota-horiguchi.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+
+
+# -----------------------------------------------------------------------------
+# Jekyll Multiple Languages
+# -----------------------------------------------------------------------------
+
+languages: ["en", "ja"]
+default_lang: "en"
+exclude_from_localization: ["assets"]
+parallel_localization: false
+language_from_path: true
+sass:
+  sourcemap: never
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -150,6 +165,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - blog
 keep_files:
   - CNAME
   - .nojekyll
@@ -281,7 +297,8 @@ enable_masonry:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
-enable_darkmode:            true   # enables switching between light/dark modes
+enable_darkmode:            false   # enables switching between light/dark modes
+enable_language_switch:     true
 enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
