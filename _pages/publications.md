@@ -28,7 +28,7 @@ nav_order: 1
     </div>
     <div class="col-auto">
       <select id="filter-year">
-        <option value=".year-all">Date</option>
+        <option value=".year-all">Year</option>
         {%- for y in page.years %}
           <option value=".year-{{y}}">{{y}}</option>
         {% endfor %}
