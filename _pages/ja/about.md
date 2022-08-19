@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: 概要
 permalink: /
 subtitle: shota.horiguchi.wk [at] hitachi.com / horiguchi [at] ieee.org
 

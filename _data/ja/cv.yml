@@ -11,7 +11,7 @@
 - title: 学歴
   type: time_table
   contents:
-    - title: 博士（計算機科学）
+    - title: 博士（工学）
       institution: 筑波大学大学院 システム情報工学研究群 情報理工学位プログラム
       year: 2022 - 現在
       description:
@@ -63,20 +63,20 @@
       year: 2021
       items: 
         - Hitachi-JHUチームとして
-        -  <a href="https://dihardchallenge.github.io/dihard3/system_descriptions/dihard3_system_description_team115.pdf">Technical report</a>
+        -  <a href="https://dihardchallenge.github.io/dihard3/system_descriptions/dihard3_system_description_team115.pdf">テクニカルレポート</a>
         - EEND-EDA，EEND as post-processing，システムアンサンブルを担当
     - title: <a href="https://spandh.dcs.shef.ac.uk//chime_challenge/CHiME5/index.html">The 5th CHiME Speech Separation and Recognition Challenge (CHiME-5)</a> 2位
       year: 2018
       items:
         - Hitachi-JHUチームとして
-        - <a href="https://spandh.dcs.shef.ac.uk//chime_workshop/chime2018/papers/CHiME_2018_paper_kanda.pdf">Technical report</a>
+        - <a href="https://spandh.dcs.shef.ac.uk//chime_workshop/chime2018/papers/CHiME_2018_paper_kanda.pdf">テクニカルレポート</a>
         - 音源分離とサーバー冷却🌬️を担当
     - title: 映像情報メディア学会優秀研究発表賞
       year: 2017
       items: 
         - 2015年3月のPRMU研究会での発表に対して
 
-- title: 学会
+- title: 所属学会
   type: list
   contents:
   - Institute of Electrical and Electronics Engineers (IEEE)
@@ -91,7 +91,7 @@
     - title: 査読
       items:
         - "論文誌: IEEE Transactions on Pattern Recognition and Machine Intelligence, IEEE Transactions on Multimedia, IEEE Transactions on Audio, Speech and Language Processing, IEEE Transactions on Neural Networks and Learning Systems, Elsevier Neural Networks, Elsevier Computer Speech & Language"
-        - "国際会議: ICASSP (2019--2022), SLT (2022), ICML (2020), MLSP (2021), EUSIPCO (2021--2022) DCASE (2020--2021), APSIPA (2021), RO-MAN (2022)"
+        - "国際会議: ICASSP (2019-2022), SLT (2022), ICML (2020), MLSP (2021), EUSIPCO (2021-2022) DCASE (2020-2021), APSIPA (2021), RO-MAN (2022)"
 
 # - title: Other Interests
 #   type: list
