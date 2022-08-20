@@ -11,7 +11,7 @@ group :jekyll_plugins do
     gem 'jekyll-paginate-v2'
     gem 'jekyll-scholar'
     gem 'jekyll-seo-tag'
-    gem 'jekyll-sitemap'
+    gem 'jekyll-sitemap', :git => 'https://github.com/shota-horiguchi/jekyll-sitemap.git'
     gem 'jekyll-target-blank'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
