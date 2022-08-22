@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Shota Horiguchi # the website title (if blank, full name will be used instead)
 first_name: Shota
 middle_name: 
 last_name: Horiguchi
@@ -25,7 +25,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 
 
 # -----------------------------------------------------------------------------
-# Jekyll Multiple Languages
+# Jekyll Multiple Languages (Jekyll Polygrot)
 # -----------------------------------------------------------------------------
 
 languages: ["en", "ja"]
