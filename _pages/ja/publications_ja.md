@@ -13,7 +13,7 @@ lang: ja
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -T bib_ja -f japanese -q @*[year={{y}}]* %}
+  {% bibliography -T bib_ja -f domestic_conference_ja -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
