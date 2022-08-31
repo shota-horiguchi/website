@@ -83,16 +83,31 @@
   - "日本音響学会: No. 22704"
 
 - title: 学術貢献活動
-  type: nested_list
+  type: double_nested_list
   contents:
     - title: 座長
       items: 
         - IEEE ICASSP 2022 (＠シンガポール)
     - title: 査読
-      items:
-        - "論文誌: IEEE Transactions on Pattern Recognition and Machine Intelligence, IEEE Transactions on Multimedia, IEEE Transactions on Audio, Speech and Language Processing, IEEE Transactions on Neural Networks and Learning Systems, Elsevier Neural Networks, Elsevier Computer Speech & Language"
-        - "国際会議: ICASSP (2019-2022), SLT (2022), ICML (2020), MLSP (2021), EUSIPCO (2021-2022) DCASE (2020-2021), APSIPA (2021), RO-MAN (2022)"
-
+      subcontents:
+        - title: 論文誌
+          items:
+          - IEEE Transactions on Pattern Recognition and Machine Intelligence
+          - IEEE Transactions on Multimedia
+          - IEEE/ACM Transactions on Audio, Speech and Language Processing
+          - IEEE Transactions on Neural Networks and Learning Systems
+          - Elsevier Neural Networks
+          - Elsevier Computer Speech & Language
+        - title: 国際会議
+          items:
+          - ICASSP (2019-2022)
+          - SLT (2022)
+          - ICML (2020)
+          - MLSP (2021)
+          - EUSIPCO (2021-2022)
+          - DCASE (2020-2021)
+          - APSIPA (2021)
+          - RO-MAN (2022)
 # - title: Other Interests
 #   type: list
 #   contents:
