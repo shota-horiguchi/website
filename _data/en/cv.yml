@@ -74,12 +74,13 @@
     - title: ITE Outstanding Research Presentation Award
       year: 2017
       items: 
-        - For the presentation in PRMU, Mar, 2015
+        - For the presentation in PRMU, Feb, 2017
 
 - title: Membership
   type: list
   contents:
   - Institute of Electrical and Electronics Engineers (IEEE)
+  - IEEE Signal Processing Society (SPS)
   - "Acoustic Society of Japan (ASJ): No. 22704"
 
 - title: Academic Service
@@ -92,22 +93,22 @@
       subcontents:
         - title: Journal
           items:
+          - IEEE/ACM Transactions on Audio, Speech, and Language Processing
           - IEEE Transactions on Pattern Recognition and Machine Intelligence
           - IEEE Transactions on Multimedia
-          - IEEE/ACM Transactions on Audio, Speech and Language Processing
           - IEEE Transactions on Neural Networks and Learning Systems
-          - Elsevier Neural Networks
           - Elsevier Computer Speech & Language
+          - Elsevier Neural Networks
         - title: Conference
           items:
           - ICASSP (2019-2022)
-          - SLT (2022)
-          - ICML (2020)
-          - MLSP (2021)
           - EUSIPCO (2021-2022)
+          - SLT (2022)
           - DCASE (2020-2021)
-          - APSIPA (2021)
+          - MLSP (2021)
+          - APSIPA ASC (2021)
           - RO-MAN (2022)
+          - ICML (2020)
 
 # - title: Other Interests
 #   type: list
