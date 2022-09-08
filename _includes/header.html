@@ -10,7 +10,8 @@
         {%- if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name
         }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%}
         {%- else %}
-        {%- if site.title == "blank" -%}{{ site.last_name_ja }}{{ site.first_name_ja }}{%- else -%}{{ site.title_ja }}{%-
+        {%- if site.title == "blank" -%}{{ site.last_name_ja }}{{ site.first_name_ja }}{%- else -%}{{ site.title_ja
+        }}{%-
         endif -%}
         {%- endif -%}
       </a>
@@ -109,15 +110,15 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               {%- if site.active_lang == "en" -%}
-              English
+              :globe_with_meridians: English
               {%- else %}
-              日本語
+              :jp: 日本語
               {%- endif -%}
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" {% static_href %}href="{{ site.baseurl }}{{ page.url }}" {% endstatic_href
-                %}>English</a>
-              <a class="dropdown-item" href="{{ site.baseurl }}/ja{{ page.url }}">日本語</a>
+                %}>:globe_with_meridians: English</a>
+              <a class="dropdown-item" href="{{ site.baseurl }}/ja{{ page.url }}">:jp: 日本語</a>
             </div>
           </li>
           {%- endif %}
