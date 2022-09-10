@@ -35,6 +35,11 @@ lang: ja
         {% endfor %}
       </select>
     </div>
+    <div class="col-auto first-aurhor">
+      <input type="checkbox" id="filter-first-author" />
+      <label for="filter-first-author" class="author-toggle"></label>
+      <span>主著のみ</span>
+    </div>
   </div>
 </div>
 

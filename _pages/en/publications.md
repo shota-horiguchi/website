@@ -21,9 +21,9 @@ lang: en
     <div class="col-auto">
       <select id="filter-pubtype">
         <option value=".pubtype-all">Type</option>
-        <option value=".pubtype-1">Journal article</option>
-        <option value=".pubtype-2">Conference paper</option>
-        <option value=".pubtype-3">System description</option>
+        <option value=".pubtype-1">Journal</option>
+        <option value=".pubtype-2">Conference</option>
+        <option value=".pubtype-3">Competition</option>
         <option value=".pubtype-4">Preprint</option>
       </select>
     </div>
@@ -34,6 +34,11 @@ lang: en
           <option value=".year-{{y}}">{{y}}</option>
         {% endfor %}
       </select>
+    </div>
+    <div class="col-auto first-aurhor">
+      <input type="checkbox" id="filter-first-author" />
+      <label for="filter-first-author" class="author-toggle"></label>
+      <span>1st author only</span>
     </div>
   </div>
 </div>

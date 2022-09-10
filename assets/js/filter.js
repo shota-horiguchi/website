@@ -20,6 +20,7 @@ function filter() {
   var query = $('#filter-search').val().toLowerCase();
   var pubtype = $('#filter-pubtype').val();
   var year = $('#filter-year').val();
+  var is_first_author = $('#filter-first-author').prop('checked');
 
   $(".year-all").hide();
   $(".year-all").find('li').hide();
@@ -28,6 +29,12 @@ function filter() {
   $(".pubtype-all").hide();
   $(year + " " + pubtype).show();
   $(year + " " + pubtype).find('li').show();
+
+  if (is_first_author) {
+    $(".co-author").parent().hide();
+  } else {
+    $(".co-author").parent().show();
+  }
 
   if (query.length > 0) {
     $(".year-all li:visible").filter(function () {
@@ -51,4 +58,5 @@ window.onload = function () {
   $('#filter-search').on("search", filter);
   $('#filter-pubtype').change(filter);
   $('#filter-year').change(filter);
+  $('#filter-first-author').change(filter);
 };
