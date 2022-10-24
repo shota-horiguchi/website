@@ -35,7 +35,8 @@
       institution: Hitachi, Ltd. Research and Development Group
       year: 2021 - Present
       description:
-        - Leader of speech technology team
+        - Tech Lead of speech team (2022-)
+        - Leader of speech technology team (2021-2022)
         - title: Research topic
           contents:
             - Speaker diarization
@@ -97,8 +98,9 @@
           - IEEE Transactions on Pattern Recognition and Machine Intelligence
           - IEEE Transactions on Multimedia
           - IEEE Transactions on Neural Networks and Learning Systems
-          - Elsevier Computer Speech & Language
-          - Elsevier Neural Networks
+          - Computer Speech & Language (ISCA)
+          - Speech Communication (EURASIP & ISCA)
+          - Neural Networks (Elsevier)
         - title: Conference
           items:
           - ICASSP (2019-2022)
