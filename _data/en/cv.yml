@@ -11,18 +11,18 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Computer Science
+    - title: PhD, Computer Science
       institution: University of Tsukuba, Ibaraki, Japan
       year: 2022 - Present
       description:
         - "Supervisor: Prof. Takeshi Yamada"
-    - title: ME in Information Science and Technology
+    - title: ME, Information Science and Technology
       institution: The University of Tokyo, Tokyo, Japan
       year: 2015 - 2017
       description:
         - "Supervisor: Prof. Kiyoharu Aizawa"
         - "Thesis title: Personalized Object Recognition"
-    - title: BE in Information and Communication Engineering
+    - title: BE, Information and Communication Engineering
       institution: The University of Tokyo, Tokyo, Japan
       year: 2011 - 2015
       description:
@@ -35,7 +35,7 @@
       institution: Hitachi, Ltd. Research and Development Group
       year: 2021 - Present
       description:
-        - Tech Lead of speech team (2022-)
+        - Tech lead of speech team (2022-)
         - Leader of speech technology team (2021-2022)
         - title: Research topic
           contents:
@@ -103,7 +103,7 @@
           - Neural Networks (Elsevier)
         - title: Conference
           items:
-          - ICASSP (2019-2022)
+          - ICASSP (2019-2023)
           - EUSIPCO (2021-2022)
           - SLT (2022)
           - DCASE (2020-2021)
