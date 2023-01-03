@@ -26,7 +26,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 
 
 # -----------------------------------------------------------------------------
-# Jekyll Multiple Languages (Jekyll Polygrot)
+# Jekyll Multiple Languages (Jekyll Polyglot)
 # -----------------------------------------------------------------------------
 
 languages: ["en", "ja"]
@@ -77,7 +77,7 @@ scholar_userid: 9U5YK3wAAAAJ # your Google Scholar ID
 orcid_id: 0000-0002-3166-4956 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
-publons_id: 3871983 # your ID on Publons
+publons_id: # 3871983 # your ID on Publons
 research_gate_profile: Shota-Horiguchi # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: # work page URL
@@ -311,7 +311,7 @@ enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            false   # enables switching between light/dark modes
 enable_language_switch:     true
-enable_navbar_social:       false  # enables displaying social links in the
+enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
