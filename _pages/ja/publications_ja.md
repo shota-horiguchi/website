@@ -9,11 +9,45 @@ nav_order: 1
 lang: ja
 ---
 <!-- _pages/publications.md -->
+
+<!-- Filter -->
+<script src="{{ '/assets/js/filter.js' | relative_url }}"></script>
+
+<div class="search">
+  <div class="form-row mb-4">
+    <div class="col-auto">
+      <input type="search" id="filter-search" placeholder="Search..." autocapitalize=off autocomplete=off autocorrect=off role=textbox spellcheck=false>
+    </div>
+    <div class="col-auto" style="display: none">
+      <select id="filter-pubtype">
+        <option value=".pubtype-all">Type</option>
+      </select>
+    </div>
+    <div class="col-auto">
+      <select id="filter-year">
+        <option value=".year-all">Year</option>
+        {%- for y in page.years %}
+          <option value=".year-{{y}}">{{y}}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="col-auto first-aurhor">
+      <input type="checkbox" id="filter-first-author" />
+      <label for="filter-first-author" class="author-toggle"></label>
+      <span>1st author only</span>
+    </div>
+  </div>
+</div>
+
 <div class="publications">
 
 {%- for y in page.years %}
+  <div class="year-all year-{{y}}">
   <h2 class="year">{{y}}</h2>
+  <div class="pubtype-all">
   {% bibliography -T bib_ja -f domestic_conference_ja -q @*[year={{y}}]* %}
+  </div>
+  </div>
 {% endfor %}
 
 </div>

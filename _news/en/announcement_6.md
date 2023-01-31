@@ -5,4 +5,4 @@ inline: true
 lang: en
 ---
 
-Awarded "Itakura Prize Innovative Young Researcher Award" from The Acoustical Society of Japan.
+Awarded "<a href="https://acoustics.jp/awards/itakura/">Itakura Prize Innovative Young Researcher Award</a>" from The Acoustical Society of Japan.

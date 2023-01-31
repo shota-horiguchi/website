@@ -5,4 +5,4 @@ inline: true
 lang: ja
 ---
 
-IEEE/ACM Trans. ASLPに論文「Online Neural Diarization of Unlimited Numbers of Speakers Using Global and Local Attractors」が採択されました。
+IEEE/ACM Trans. ASLPに論文「<a href="https://ieeexplore.ieee.org/document/10003998/">Online Neural Diarization of Unlimited Numbers of Speakers Using Global and Local Attractors</a>」が採択されました。

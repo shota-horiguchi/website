@@ -5,4 +5,4 @@ inline: true
 lang: en
 ---
 
-Our paper "Online Neural Diarization of Unlimited Numbers of Speakers Using Global and Local Attractors" has been accepted to IEEE/ACM Trans. ASLP.
+Our paper "<a href="https://ieeexplore.ieee.org/document/10003998/">Online Neural Diarization of Unlimited Numbers of Speakers Using Global and Local Attractors</a>" has been accepted to IEEE/ACM Trans. ASLP.
