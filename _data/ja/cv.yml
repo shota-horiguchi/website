@@ -60,9 +60,13 @@
 - title: 表彰
   type: time_table
   contents:
+    - title: <a href="https://acoustics.jp/awards/itakura/">日本音響学会 独創研究奨励賞 板倉記念</a>
+      year: 2023
+      items:
+        - 「話者数未知下における発話重複を考慮した話者ダイアライゼーションに関する研究」に対して
     - title: <a href="https://dihardchallenge.github.io/dihard3/">The Third DIHARD Speech Diarization Challenge (DIHARD III)</a> 2位
       year: 2021
-      items: 
+      items:
         - Hitachi-JHUチームとして
         -  <a href="https://dihardchallenge.github.io/dihard3/system_descriptions/dihard3_system_description_team115.pdf">テクニカルレポート</a>
         - EEND-EDA，EEND as post-processing，システムアンサンブルを担当
@@ -72,7 +76,7 @@
         - Hitachi-JHUチームとして
         - <a href="https://spandh.dcs.shef.ac.uk//chime_workshop/chime2018/papers/CHiME_2018_paper_kanda.pdf">テクニカルレポート</a>
         - 音源分離とサーバー冷却🌬️を担当
-    - title: 映像情報メディア学会優秀研究発表賞
+    - title: <a href="https://docs.google.com/spreadsheets/d/1Ze0xvzf6k0cIzejshiHATuBQaQA7fEZIxNBiIeKTjdk/pubhtml?gid=0&single=true">映像情報メディア学会 優秀研究発表賞</a>
       year: 2017
       items: 
         - 2017年2月のPRMU研究会での発表に対して

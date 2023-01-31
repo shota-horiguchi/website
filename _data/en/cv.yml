@@ -60,6 +60,10 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - title: <a href="https://acoustics.jp/awards/itakura/">Itakura Prize Innovative Young Researcher Award, The Acoustical Society of Japan</a>
+      year: 2023
+      items:
+        - For the research on overlap-aware speaker diarization for unkonwn numbers of speakers
     - title: 2nd prize in <a href="https://dihardchallenge.github.io/dihard3/">The Third DIHARD Speech Diarization Challenge (DIHARD III)</a>
       year: 2021
       items: 
@@ -72,7 +76,7 @@
         - As the Hitachi-JHU team
         - <a href="https://spandh.dcs.shef.ac.uk//chime_workshop/chime2018/papers/CHiME_2018_paper_kanda.pdf">Technical report</a>
         - In charge of speech separation and server cooling 🌬️
-    - title: ITE Outstanding Research Presentation Award
+    - title: <a href="https://docs.google.com/spreadsheets/d/1Ze0xvzf6k0cIzejshiHATuBQaQA7fEZIxNBiIeKTjdk/pubhtml?gid=0&single=true">Outstanding Research Presentation Award, The Institute of Image Information and Television Engineers</a>
       year: 2017
       items: 
         - For the presentation in PRMU, Feb, 2017
@@ -82,7 +86,7 @@
   contents:
   - Institute of Electrical and Electronics Engineers (IEEE)
   - IEEE Signal Processing Society (SPS)
-  - "Acoustic Society of Japan (ASJ): No. 22704"
+  - "Acoustical Society of Japan (ASJ): No. 22704"
 
 - title: Academic Service
   type: double_nested_list
