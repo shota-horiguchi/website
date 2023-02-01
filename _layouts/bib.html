@@ -111,6 +111,12 @@
           <div class="periodical">
             {{ periodical | strip }}
           </div>
+
+          {% if entry.comment != "" -%}
+          <div class="comment">
+            {{entry.comment}}
+          </div>
+          {%- endif -%}
         {%- endif %}
         
           <!-- Links/Buttons -->

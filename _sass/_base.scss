@@ -686,6 +686,11 @@ footer.sticky-bottom {
         }
       }
 
+      .comment {
+        font-weight: bold;
+        color: var(--comment-color);
+      }
+
       .links {
         a.btn {
           color: var(--global-text-color);
