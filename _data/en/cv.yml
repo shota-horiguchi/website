@@ -13,18 +13,19 @@
   contents:
     - title: PhD, Computer Science
       institution: University of Tsukuba, Ibaraki, Japan
-      year: 2022 - Present
+      year: 2022.4 - 2023.3
       description:
         - "Supervisor: Prof. Takeshi Yamada"
+        - "Thesis title: Study on overlap-aware speaker diarization and its applications"
     - title: ME, Information Science and Technology
       institution: The University of Tokyo, Tokyo, Japan
-      year: 2015 - 2017
+      year: 2015.4 - 2017.3
       description:
         - "Supervisor: Prof. Kiyoharu Aizawa"
         - "Thesis title: Personalized Object Recognition"
     - title: BE, Information and Communication Engineering
       institution: The University of Tokyo, Tokyo, Japan
-      year: 2011 - 2015
+      year: 2011.4 - 2015.3
       description:
         - "Supervisor: Prof. Kiyoharu Aizawa"
 
@@ -33,16 +34,16 @@
   contents:
     - title: Senior Researcher
       institution: Hitachi, Ltd. Research and Development Group
-      year: 2021 - Present
+      year: 2021.10 - Present
       description:
-        - Tech lead of speech team (2022-)
-        - Leader of speech technology team (2021-2022)
+        - Tech lead of speech team (2022.10-)
+        - Leader of speech technology team (2021.10-2022.9)
         - title: Research topic
           contents:
             - Speaker diarization
     - title: Researcher
       institution: Hitachi, Ltd. Research and Development Group
-      year: 2017 - 2021
+      year: 2017.4 - 2021.9
       description:
         - title: Research topic
           contents:
