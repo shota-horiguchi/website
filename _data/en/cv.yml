@@ -99,13 +99,14 @@
       subcontents:
         - title: Journal
           items:
-          - IEEE/ACM Transactions on Audio, Speech, and Language Processing
-          - IEEE Transactions on Pattern Recognition and Machine Intelligence
-          - IEEE Transactions on Multimedia
-          - IEEE Transactions on Neural Networks and Learning Systems
-          - Computer Speech & Language (ISCA)
-          - Speech Communication (EURASIP & ISCA)
-          - Neural Networks (Elsevier)
+          - IEEE/ACM Transactions on Audio, Speech, and Language Processing (2021-2023)
+          - IEEE Transactions on Multimedia (2020-2021)
+          - IEEE Transactions on Neural Networks and Learning Systems (2021)
+          - IEEE Transactions on Pattern Recognition and Machine Intelligence (2020)
+          - IEEE Transactions on Affective Computing (2023)
+          - Computer Speech & Language (2021-2022)
+          - Speech Communication (2022)
+          - Neural Networks (2022)
         - title: Conference
           items:
           - ICASSP (2019-2023)
