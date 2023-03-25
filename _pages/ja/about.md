@@ -19,7 +19,9 @@ social: true  # includes social icons at the bottom of the page
 lang: ja
 ---
 
-[株式会社日立製作所](https://www.hitachi.com/)研究開発グループ所属の研究員で，音声関連技術の研究開発を行っています。また，[筑波大学](https://www.tsukuba.ac.jp/)の[マルチメディア研究室](https://www.mmlab.cs.tsukuba.ac.jp/)の博士後期課程に在学中であり，[山田武士准教授](https://www.mmlab.cs.tsukuba.ac.jp/~takeshi/english/)の指導を受けています。
+[株式会社日立製作所](https://www.hitachi.com/)研究開発グループ所属の研究員で，音声関連技術の研究開発を行っています。
+
+2023年3月に[筑波大学](https://www.tsukuba.ac.jp/)にて[山田武士准教授](https://www.mmlab.cs.tsukuba.ac.jp/~takeshi/english/)の指導の下，博士（工学）を取得しました。在学中は[マルチメディア研究室](https://www.mmlab.cs.tsukuba.ac.jp/)に在籍していました。
 
 2017年3月までは[東京大学](https://www.u-tokyo.ac.jp/en/index.html)の相澤・山﨑研究室（現・[相澤・山肩・松井研究室](http://www.hal.t.u-tokyo.ac.jp/lab/))にてコンピュータビジョンの研究を行っており，[相澤清晴教授](https://www.hal.t.u-tokyo.ac.jp/~aizawa/)の指導の下，学士号と修士号を取得しました。
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
