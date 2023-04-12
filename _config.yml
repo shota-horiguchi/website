@@ -78,6 +78,7 @@ orcid_id: 0000-0002-3166-4956 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # 3871983 # your ID on Publons
+web_of_science_url: https://www.webofscience.com/wos/author/record/36133050
 research_gate_profile: Shota-Horiguchi # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: # work page URL
@@ -324,7 +325,8 @@ enable_medium_zoom:         true   # enables image zoom feature (as on medium.co
 
 academicons:
   version: "1.9.1"
-  integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
+  # integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
+  integrity: "sha256-hnYmwAMHc13AFvQ0Mb9nReF/XJGpOUAk4ONtFmiOniE="
 bootstrap:
   version: "4.6.1"
   integrity:

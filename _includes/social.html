@@ -10,6 +10,9 @@
             {%- if site.publons_id -%}
             <a href="https://publons.com/a/{{ site.publons_id }}/" title="Publons"><i class="ai ai-publons"></i></a>
             {% endif %}
+            {%- if site.web_of_science_url -%}
+            <a href="{{ site.web_of_science_url }}/" title="Web of Science"><i class="ai ai-clarivate"></i></a>
+            {% endif %}
             {%- if site.research_gate_profile -%}
             <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
             {% endif %}
