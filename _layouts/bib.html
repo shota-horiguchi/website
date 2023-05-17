@@ -60,14 +60,26 @@
               {%- unless forloop.last -%}
                 {% if author_is_self %}
                   <!-- <em>{{author.last}}, {{author.first}}</em>,&nbsp; -->
-                  <em>{{author.first}} {{author.last}}</em>,&nbsp;
+                  {%- if forloop.length == 2 -%}
+                    <em>{{author.first}} {{author.last}}</em>
+                  {%- else -%}
+                    <em>{{author.first}} {{author.last}}</em>,&nbsp;
+                  {%- endif -%}
                 {%- else -%}
                   {% if coauthor_url -%}
                     <!-- <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>,&nbsp; -->
-                    <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,&nbsp;
+                    {%- if forloop.length == 2 -%}
+                      <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                    {%- else -%}
+                      <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,&nbsp;
+                    {%- endif -%}
                   {%- else -%}
                     <!-- {{author.last}}, {{author.first}},&nbsp; -->
-                    {{author.first}} {{author.last}},&nbsp;
+                    {%- if forloop.length == 2 -%}
+                      {{author.first}} {{author.last}}
+                    {%- else -%}
+                      {{author.first}} {{author.last}},&nbsp;
+                    {%- endif -%}
                   {%- endif -%}
                 {%- endif -%}
               {%- else -%}
