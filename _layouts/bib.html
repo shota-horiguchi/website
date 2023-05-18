@@ -31,6 +31,7 @@
           <div class="title">{{entry.title}}</div>
           <!-- Author -->
           <div class="author">
+          {%- assign equal_authors = entry.equal_contribution | split:"," -%}
           {%- for author in entry.author_array -%}
             {%- assign author_is_self = false -%}
             {%- if site.scholar.last_name contains author.last -%}
@@ -58,41 +59,47 @@
               {%- endif -%}
             {%- else -%}
               {%- unless forloop.last -%}
+                {% assign forloop_index = forloop.index | append: "" %}
+                {% if equal_authors contains forloop_index|string %}
+                  {%- assign is_equal = "*" -%}
+                {% else %}
+                  {%- assign is_equal = nil -%}
+                {% endif %}
                 {% if author_is_self %}
                   <!-- <em>{{author.last}}, {{author.first}}</em>,&nbsp; -->
                   {%- if forloop.length == 2 -%}
-                    <em>{{author.first}} {{author.last}}</em>
+                    <em>{{author.first}} {{author.last}}</em>{{is_equal}}
                   {%- else -%}
-                    <em>{{author.first}} {{author.last}}</em>,&nbsp;
+                    <em>{{author.first}} {{author.last}}</em>{{is_equal}},&nbsp;
                   {%- endif -%}
                 {%- else -%}
                   {% if coauthor_url -%}
                     <!-- <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>,&nbsp; -->
                     {%- if forloop.length == 2 -%}
-                      <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                      <a href="{{coauthor_url}}">{{author.first}} {{author.last}}{{is_equal}}</a>
                     {%- else -%}
-                      <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,&nbsp;
+                      <a href="{{coauthor_url}}">{{author.first}} {{author.last}}{{is_equal}}</a>,&nbsp;
                     {%- endif -%}
                   {%- else -%}
                     <!-- {{author.last}}, {{author.first}},&nbsp; -->
                     {%- if forloop.length == 2 -%}
-                      {{author.first}} {{author.last}}
+                      {{author.first}} {{author.last}}{{is_equal}}
                     {%- else -%}
-                      {{author.first}} {{author.last}},&nbsp;
+                      {{author.first}} {{author.last}}{{is_equal}},&nbsp;
                     {%- endif -%}
                   {%- endif -%}
                 {%- endif -%}
               {%- else -%}
                 {% if author_is_self -%}
                   <!-- and <em>{{author.last}}, {{author.first}}</em> -->
-                  and <em>{{author.first}} {{author.last}}</em>
+                  and <em>{{author.first}} {{author.last}}</em>{{is_equal}}
                 {% else -%}
                   {%- if coauthor_url -%}
                     <!-- and <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a> -->
-                    and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                    and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>{{is_equal}}
                   {% else -%}
                     <!-- and {{author.last}}, {{author.first}} -->
-                    and {{author.first}} {{author.last}}
+                    and {{author.first}} {{author.last}}{{is_equal}}
                   {%- endif -%}
                 {%- endif -%}
               {%- endunless -%}
@@ -124,7 +131,14 @@
             {{ periodical | strip }}
           </div>
 
-          {% if entry.comment != "" -%}
+          {% if entry.equal_contribution -%}
+          {%- assign equal_authors = entry.equal_contribution | split:"," -%}
+          <div class="equal_contribution">
+            (*) Equal contribution<br>
+          </div>
+          {%- endif -%}
+
+          {% if entry.comment -%}
           <div class="comment">
             {{entry.comment}}
           </div>
