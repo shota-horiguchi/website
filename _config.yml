@@ -324,9 +324,9 @@ enable_medium_zoom:         true   # enables image zoom feature (as on medium.co
 # -----------------------------------------------------------------------------
 
 academicons:
-  version: "1.9.1"
+  version: "1.9.4"
   # integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
-  integrity: "sha256-hnYmwAMHc13AFvQ0Mb9nReF/XJGpOUAk4ONtFmiOniE="
+  integrity: "sha256-1oz1+rx2BF/9OiBUPSh1NEUwyUECNU5O70RoKnClGNs="
 bootstrap:
   version: "4.6.1"
   integrity:
