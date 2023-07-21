@@ -84,6 +84,18 @@
       items: 
         - For the presentation in PRMU, Feb, 2017
 
+- title: Invited Talks
+  type: time_table
+  contents:
+    - title: End-to-end neural diarization and its applications
+      year: 2023.8
+      items:
+        - <a href="https://sites.google.com/view/ro-man2023-workshop-speech">Speech-based Communication for Robots and Systems</a> (<a href="https://ro-man2023.org/main">IEEE RO-MAN 2023</a> Workshop)
+    - title: Face-Voice Matching Using Cross-Modal Embeddings (In Japanese)
+      year: 2019.7
+      items:
+        - <a href="http://cvim.ipsj.or.jp/MIRU2019/">The 22nd Meeting on Image Recogntion and Understanding (MIRU)</a>
+
 - title: Membership
   type: list
   contents:
@@ -108,6 +120,7 @@
           - IEEE Transactions on Affective Computing (2023)
           - Computer Speech & Language (2021-2022)
           - Speech Communication (2022-2023)
+          - EURASIP Journal on Audio, Speech and Music Processing (2023)
           - Neural Networks (2022)
         - title: Conference
           items:
@@ -115,8 +128,9 @@
           - EUSIPCO (2021-2023)
           - SLT (2022)
           - WASPAA (2023)
-          - DCASE (2020-2021)
+          - DCASE (2020-2021, 2023)
           - MLSP (2021, 2023)
+          - MMSP (2023)
           - APSIPA ASC (2021)
           - RO-MAN (2022)
           - ICML (2020)

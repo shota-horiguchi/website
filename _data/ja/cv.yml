@@ -84,6 +84,18 @@
       items: 
         - 2017年2月のPRMU研究会での発表に対して
 
+- title: 招待講演
+  type: time_table
+  contents:
+    - title: End-to-end neural diarization and its applications
+      year: 2023.8
+      items:
+        - <a href="https://sites.google.com/view/ro-man2023-workshop-speech">Speech-based Communication for Robots and Systems</a> (<a href="https://ro-man2023.org/main">IEEE RO-MAN 2023</a> Workshop)
+    - title: Face-Voice Matching Using Cross-Modal Embeddings
+      year: 2019.7
+      items:
+        - <a href="http://cvim.ipsj.or.jp/MIRU2019/">画像の認識・理解シンポジウム (MIRU)</a>
+
 - title: 所属学会
   type: list
   contents:
@@ -115,8 +127,9 @@
           - EUSIPCO (2021-2023)
           - SLT (2022)
           - WASPAA (2023)
-          - DCASE (2020-2021)
+          - DCASE (2020-2021, 2023)
           - MLSP (2021, 2023)
+          - MMSP (2023)
           - APSIPA ASC (2021)
           - RO-MAN (2022)
           - ICML (2020)
