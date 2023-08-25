@@ -87,7 +87,7 @@
 - title: Invited Talks
   type: time_table
   contents:
-    - title: End-to-end neural diarization and its applications
+    - title: "Speaker Diarization: A Key to Solving Cocktail Party Problem"
       year: 2023.8
       items:
         - <a href="https://sites.google.com/view/ro-man2023-workshop-speech">Speech-based Communication for Robots and Systems</a> (<a href="https://ro-man2023.org/main">IEEE RO-MAN 2023</a> Workshop)
@@ -108,7 +108,7 @@
   contents:
     - title: Session chair
       items: 
-        - IEEE ICASSP 2022 (at Singapore)
+        - IEEE ICASSP 2022 (in Singapore)
     - title: Review experience
       subcontents:
         - title: Journal
