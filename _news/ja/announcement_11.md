@@ -5,4 +5,4 @@ inline: true
 lang: ja
 ---
 
-IEEE RO-MANの併設ワークショップ「Speech-based Communication for Robots and Systems」にて，Speaker Diarization: A Key to Solving Cocktail Party Problemと題して招待講演を行います
+IEEE RO-MANの併設ワークショップ「Speech-based Communication for Robots and Systems」にて，Speaker Diarization: A Key to Solving Cocktail Party Problemと題して招待講演を行います。
