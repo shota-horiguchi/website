@@ -16,8 +16,9 @@
       year: 2022.4 - 2023.3
       description:
         - "Supervisor: Prof. Takeshi Yamada"
-        - title: "Thesis title: <a href="https://tsukuba.repo.nii.ac.jp/records/2008223">Study on overlap-aware speaker diarization and its applications</a>"
+        - title: "Thesis title: Study on overlap-aware speaker diarization and its applications"
           contents:
+          - <a href="https://tsukuba.repo.nii.ac.jp/records/2008223">Thesis</a>
           - <a href="../assets/pdf/defense_slides.pdf">Slides</a>
     - title: M.E., Information Science and Technology
       institution: The University of Tokyo, Tokyo, Japan

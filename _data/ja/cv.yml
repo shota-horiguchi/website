@@ -16,8 +16,9 @@
       year: 2022.4 - 2023.3
       description:
         - "指導教員：山田武士准教授"
-        - title: "博士論文タイトル: <a href="https://tsukuba.repo.nii.ac.jp/records/2008223">Study on overlap-aware speaker diarization and its applications (発話の重複を考慮した話者ダイアライゼーションとその応用に関する研究)</a>"
+        - title: "博士論文タイトル: Study on overlap-aware speaker diarization and its applications (発話の重複を考慮した話者ダイアライゼーションとその応用に関する研究)"
           contents:
+          - <a href="https://tsukuba.repo.nii.ac.jp/records/2008223">博士論文</a>
           - <a href="../../assets/pdf/defense_slides.pdf">発表スライド</a>
     - title: 修士（情報理工学）
       institution: 東京大学大学院 情報理工学系研究科 電子情報学専攻
