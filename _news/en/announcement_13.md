@@ -5,4 +5,4 @@ inline: true
 lang: en
 ---
 
-Released a <a href="https://arxiv.org/abs/2309.01013">preprint</a> on streaming active learning for regression problem.
+Released a <a href="https://arxiv.org/abs/2309.01013">preprint</a> regarding streaming active learning for regression problem.
