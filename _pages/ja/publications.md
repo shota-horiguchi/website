@@ -16,7 +16,7 @@ lang: ja
 <div class="search">
   <div class="form-row mb-4">
     <div class="col-auto">
-      <input type="search" id="filter-search" placeholder="Search..." autocapitalize=off autocomplete=off autocorrect=off role=textbox spellcheck=false>
+      <input type="search" id="filter-search" placeholder="検索..." autocapitalize=off autocomplete=off autocorrect=off role=textbox spellcheck=false>
     </div>
     <div class="col-auto">
       <select id="filter-pubtype">

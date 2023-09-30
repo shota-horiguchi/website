@@ -16,16 +16,16 @@ lang: ja
 <div class="search">
   <div class="form-row mb-4">
     <div class="col-auto">
-      <input type="search" id="filter-search" placeholder="Search..." autocapitalize=off autocomplete=off autocorrect=off role=textbox spellcheck=false>
+      <input type="search" id="filter-search" placeholder="検索..." autocapitalize=off autocomplete=off autocorrect=off role=textbox spellcheck=false>
     </div>
     <div class="col-auto" style="display: none">
       <select id="filter-pubtype">
-        <option value=".pubtype-all">Type</option>
+        <option value=".pubtype-all">種類</option>
       </select>
     </div>
     <div class="col-auto">
       <select id="filter-year">
-        <option value=".year-all">Year</option>
+        <option value=".year-all">発表年</option>
         {%- for y in page.years %}
           <option value=".year-{{y}}">{{y}}</option>
         {% endfor %}
@@ -34,7 +34,7 @@ lang: ja
     <div class="col-auto first-aurhor">
       <input type="checkbox" id="filter-first-author" />
       <label for="filter-first-author" class="author-toggle"></label>
-      <span>1st author only</span>
+      <span>主著のみ</span>
     </div>
   </div>
 </div>
