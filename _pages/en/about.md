@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: shota.horiguchi.wk [at] hitachi.com / horiguchi [at] ieee.org
+subtitle: horiguchi [at] ieee.org
 
 # profile:
 #   align: right
