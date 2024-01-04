@@ -37,13 +37,14 @@
   contents:
     - title: Senior Researcher
       institution: Hitachi, Ltd. Research and Development Group
-      year: 2021.10 - Present
+      year: 2021.10 - 2024.1
       description:
-        - Team leader (2021.10-2022.9, 2023.4-)
+        - Team leader (2021.10-2022.9, 2023.4-2024.1)
         - Tech lead (2022.10-2023.3)
         - title: Research topic
           contents:
             - Speaker diarization
+            - Streaming active learning
     - title: Researcher
       institution: Hitachi, Ltd. Research and Development Group
       year: 2017.4 - 2021.9
@@ -121,7 +122,7 @@
           - IEEE Transactions on Affective Computing (2023)
           - IEEE Open Journal of Signal Processing (2023)
           - Computer Speech & Language (2021-2022)
-          - Speech Communication (2022-2023)
+          - Speech Communication (2022-2024)
           - EURASIP Journal on Audio, Speech and Music Processing (2023)
           - Neural Networks (2022)
         - title: Conference

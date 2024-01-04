@@ -36,16 +36,17 @@
   type: time_table
   contents:
     - title: Senior Researcher
-      institution: 株式会社日立製作所　研究開発グループ
-      year: 2021.10 - 現在
+      institution: 株式会社日立製作所 研究開発グループ
+      year: 2021.10 - 2024.1
       description:
-        - チームリーダー (2021.10-2022.9, 2023.4-)
+        - チームリーダー (2021.10-2022.9, 2023.4-2024.1)
         - テックリード (2022.10-2023.3)
         - title: 研究トピック
           contents:
             - 話者ダイアライゼーション
+            - ストリーム型能動学習
     - title: Researcher
-      institution: 株式会社日立製作所　研究開発グループ
+      institution: 株式会社日立製作所 研究開発グループ
       year: 2017.4 - 2021.9
       description:
         - title: 研究トピック
@@ -121,7 +122,7 @@
           - IEEE Transactions on Affective Computing (2023)
           - IEEE Open Journal of Signal Processing (2023)
           - Computer Speech & Language (2021-2022)
-          - Speech Communication (2022-2023)
+          - Speech Communication (2022-2024)
           - EURASIP Journal on Audio, Speech and Music Processing (2023)
           - Neural Networks (2022)
         - title: 国際会議
