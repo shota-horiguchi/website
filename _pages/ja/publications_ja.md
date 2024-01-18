@@ -44,7 +44,7 @@ lang: ja
 {%- for y in page.years %}
   <div class="year-all year-{{y}}">
   <h2 class="year">{{y}}</h2>
-  <div class="pubtype-all">
+  <div class="pubtype-all pubtype-2">
   {% bibliography -T bib_ja -f domestic_conference_ja -q @*[year={{y}}]* %}
   </div>
   </div>
