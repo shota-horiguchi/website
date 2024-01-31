@@ -15,7 +15,7 @@
       institution: 筑波大学大学院 システム情報工学研究群 情報理工学位プログラム
       year: 2022.4 - 2023.3
       description:
-        - "指導教員：山田武士准教授"
+        - "指導教員：山田武志准教授"
         - title: "博士論文タイトル: Study on overlap-aware speaker diarization and its applications (発話の重複を考慮した話者ダイアライゼーションとその応用に関する研究)"
           contents:
           - <a href="https://tsukuba.repo.nii.ac.jp/records/2008223">博士論文</a>
@@ -35,6 +35,13 @@
 - title: 職歴
   type: time_table
   contents:
+    - title: Research Specialist
+      institution: 日本電信電話株式会社 NTT人間情報研究所
+      year: 2024.2 - 現在
+      description:
+        - title: 研究トピック
+          contents:
+            - 音声関連技術
     - title: Senior Researcher
       institution: 株式会社日立製作所 研究開発グループ
       year: 2021.10 - 2024.1
@@ -43,8 +50,8 @@
         - テックリード (2022.10-2023.3)
         - title: 研究トピック
           contents:
-            - 話者ダイアライゼーション
-            - ストリーム型能動学習
+            - 話者ダイアライゼーション (2021-2023)
+            - ストリーム型能動学習 (2022-2024)
     - title: Researcher
       institution: 株式会社日立製作所 研究開発グループ
       year: 2017.4 - 2021.9
@@ -52,8 +59,8 @@
         - title: 研究トピック
           contents:
            - ヒューマンロボットインタラクションのためのマルチモーダル認識 (2017-2019)
-           - 分散マイクを用いた会議音声認識 (2019-)
-           - 話者ダイアライゼーション (2019-)
+           - 分散マイクを用いた会議音声認識 (2019-2021)
+           - 話者ダイアライゼーション (2019-2021)
 
 # - title: Open Source Projects
 #   type: time_table
@@ -115,7 +122,7 @@
       subcontents:
         - title: 論文誌
           items:
-          - IEEE/ACM Transactions on Audio, Speech, and Language Processing (2021-2023)
+          - IEEE/ACM Transactions on Audio, Speech, and Language Processing (2021-2024)
           - IEEE Transactions on Multimedia (2020-2021)
           - IEEE Transactions on Neural Networks and Learning Systems (2021)
           - IEEE Transactions on Pattern Recognition and Machine Intelligence (2020)
@@ -138,7 +145,9 @@
           - APSIPA ASC (2021)
           - RO-MAN (2022)
           - ICML (2020)
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+
+- title: インターン生指導
+  type: list
+  contents:
+  - 山下夏生（東京大学大学院 学際情報学府 M1，2021.8 - 2022.2）
+  - 伊藤葵（法政大学 情報科学部 B4, 2022.11 - 2024.1）

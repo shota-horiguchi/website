@@ -35,6 +35,13 @@
 - title: Work Experience
   type: time_table
   contents:
+    - title: Research Specialist
+      institution: NTT Corporation, Human Informatics Laboratories
+      year: 2024.2 - Present
+      description:
+        - title: Research topic
+          contents:
+            - Speech technology
     - title: Senior Researcher
       institution: Hitachi, Ltd. Research and Development Group
       year: 2021.10 - 2024.1
@@ -43,8 +50,8 @@
         - Tech lead (2022.10-2023.3)
         - title: Research topic
           contents:
-            - Speaker diarization
-            - Streaming active learning
+            - Speaker diarization (2021-2023)
+            - Streaming active learning (2022-2024)
     - title: Researcher
       institution: Hitachi, Ltd. Research and Development Group
       year: 2017.4 - 2021.9
@@ -52,8 +59,8 @@
         - title: Research topic
           contents:
            - Multimodal enviromnental recognition for human-robot interaction (2017-2019)
-           - Meeting transcription using distributed microphones (2019-)
-           - Speaker diarization
+           - Meeting transcription using distributed microphones (2019-2021)
+           - Speaker diarization (2019-2021)
 
 # - title: Open Source Projects
 #   type: time_table
@@ -105,7 +112,7 @@
   - IEEE Signal Processing Society (SPS)
   - "Acoustical Society of Japan (ASJ): No. 22704"
 
-- title: Academic Service
+- title: Academic Services
   type: double_nested_list
   contents:
     - title: Session chair
@@ -115,7 +122,7 @@
       subcontents:
         - title: Journal
           items:
-          - IEEE/ACM Transactions on Audio, Speech, and Language Processing (2021-2023)
+          - IEEE/ACM Transactions on Audio, Speech, and Language Processing (2021-2024)
           - IEEE Transactions on Multimedia (2020-2021)
           - IEEE Transactions on Neural Networks and Learning Systems (2021)
           - IEEE Transactions on Pattern Recognition and Machine Intelligence (2020)
@@ -139,7 +146,8 @@
           - RO-MAN (2022)
           - ICML (2020)
 
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+- title: Intenship Supervision
+  type: list
+  contents:
+    - Natsuo Yamashita (The University of Tokyo, 2021.8 & 2021.10 - 2022.2)
+    - Aoi Ito (Hosei University, 2022.11 - 2024.1)
