@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 lang: en
 ---
 
-I am a Research Specialist at [NTT Human Informatics Laboratories](https://www.rd.ntt/e/hil/), working on speech-related technology. My research interests are not limited to speech-related technology such as speech recognition, speech separation, and speaker diarization, but also include image processing and multimodal processing.
+I am a Research Specialist at [NTT Human Informatics Laboratories](https://www.rd.ntt/e/hil/). My research interests are not limited to speech-related technology such as speech recognition, speech separation, and speaker diarization, but also include image processing and multimodal processing.
 
 Prior to joining NTT, I was a Senior Researcher at [Hitachi, Ltd.](https://www.hitachi.com/) Research and Development Group from 2017 to 2024.
 
