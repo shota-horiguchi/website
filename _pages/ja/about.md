@@ -21,7 +21,7 @@ lang: ja
 
 [NTT人間情報研究所](https://www.rd.ntt/hil/)のリサーチスペシャリストで，音声関連技術の研究開発を行っています。
 
-2017年から2024年までは[株式会社日立製作所](https://www.hitachi.co.jp/)の研究開発グループに所属しておりました。
+2017年から2024年までは[株式会社日立製作所](https://www.hitachi.co.jp/)の研究開発グループに所属していました。
 
 2023年に[筑波大学](https://www.tsukuba.ac.jp/)から博士号を授与されました。在学中は[マルチメディア研究室](https://www.mmlab.cs.tsukuba.ac.jp/)に所属し，[山田武志准教授](https://www.mmlab.cs.tsukuba.ac.jp/~takeshi/)の指導を受けていました。
 
