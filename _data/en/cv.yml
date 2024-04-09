@@ -135,6 +135,7 @@
         - title: Conference
           items:
           - ICASSP (2019-2024)
+          - INTERSPEECH (2024)
           - ASRU (2023)
           - EUSIPCO (2021-2023)
           - SLT (2022)
@@ -149,5 +150,5 @@
 - title: Intenship Supervision
   type: list
   contents:
-    - Natsuo Yamashita (The University of Tokyo, 2021.8 - 2022.2)
-    - Aoi Ito (Hosei University, 2022.11 - 2024.1)
+    - Natsuo Yamashita (The University of Tokyo, 2021.8 - 2022.2) @Hitachi, Ltd.
+    - Aoi Ito (Hosei University, 2022.11 - 2024.1) @Hitachi, Ltd.
