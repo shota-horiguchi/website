@@ -72,6 +72,11 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - title: 2nd prize in <a href="https://www.chimechallenge.org/current/task1/index">The 8th CHiME Speech Separation and Recognition Challenge (CHiME-8) Task 1</a>
+      year: 2024
+      items:
+        - As the NTT team
+        - In charge of preparation of simulated mixtures and pretraining of EEND-VC
     - title: <a href="https://acoustics.jp/awards/itakura/">Itakura Prize Innovative Young Researcher Award, The Acoustical Society of Japan</a>
       year: 2023
       items:
@@ -82,11 +87,11 @@
         - As the Hitachi-JHU team
         -  <a href="https://dihardchallenge.github.io/dihard3/system_descriptions/dihard3_system_description_team115.pdf">Technical report</a>
         - In charge of EEND-EDA, EEND as post-processing, and system ensemble
-    - title: 2nd prize in <a href="https://spandh.dcs.shef.ac.uk//chime_challenge/CHiME5/index.html">The 5th CHiME Speech Separation and Recognition Challenge (CHiME-5)</a>
+    - title: 2nd prize in <a href="https://www.chimechallenge.org/challenges/chime5/index">The 5th CHiME Speech Separation and Recognition Challenge (CHiME-5)</a>
       year: 2018
       items:
         - As the Hitachi-JHU team
-        - <a href="https://spandh.dcs.shef.ac.uk//chime_workshop/chime2018/papers/CHiME_2018_paper_kanda.pdf">Technical report</a>
+        - <a href="https://www.chimechallenge.org/workshops/chime2018/papers/CHiME_2018_paper_kanda.pdf">Technical report</a>
         - In charge of speech separation and server cooling 🌬️
     - title: <a href="https://docs.google.com/spreadsheets/d/1Ze0xvzf6k0cIzejshiHATuBQaQA7fEZIxNBiIeKTjdk/pubhtml?gid=0&single=true">Outstanding Research Presentation Award, The Institute of Image Information and Television Engineers</a>
       year: 2017

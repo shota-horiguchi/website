@@ -1,3 +1,13 @@
+@inproceedings{kamo2024ntt,
+    title={{NTT} Multi-Speaker {ASR} System for the {DASR} Task of {CHiME-8} Challenge},
+    author={Kamo, Naoyuki and Tawara, Naohiro and Ando, Atsushi and Kano, Takatomo and Sato, Hiroshi and Ikeshita, Rintaro and Moriya, Takafumi and Horiguchi, Shota and Matsuura, Kohei and Ogawa, Atsunori and Plaquet, Alexis and Ashihara, Takanori and Ochiai, Tsubasa and Mimura, Masato and Delcroix, Marc and Nakatani, Tomohiro and Asami, Taishi and Araki, Shoko},
+    booktitle={The 8th International Workshop on Speech Processing in Everyday Environments (CHiME-2024)},
+    equal_contribution={1,2},
+    year={2024},
+    month=sep,
+    abbr={CHiME},
+    abstract={We present a distant automatic speech recognition (DASR) system developed for the CHiME-8 DASR track. It consists of a diarization first pipeline. For diarization, we use end-to-end diarization with vector clustering (EEND-VC) followed by target speaker voice activity detection (TS-VAD) refinement. To deal with various numbers of speakers, we developed a new multi-channel speaker counting approach. We then apply guided source separation (GSS) with several improvements to the baseline system. Finally, we perform ASR using a combination of systems built from strong pre-trained models. Our proposed system achieves a macro tcpWER of 21.4 % on the dev set, which is a 57 % relative improvement over the baseline.}
+}
 @inproceedings{horiguchi2022hitachijhu,
     title={The {Hitachi-JHU} {DIHARD} {III} System: Competitive End-to-End Neural Diarization and X-vector Clustering Systems Combined by {DOVER-Lap}},
     author={Horiguchi, Shota and Yalta, Nelson and Garcia, Paola and Takashima, Yuki and Xue, Yawen and Raj, Desh and Huang, Zili and Fujita, Yusuke and Watanabe, Shinji and Khudanpur, Sanjeev},
@@ -43,6 +53,6 @@
     month=sep,
     pages={6--10},
     abbr={CHiME},
-    abstract={This paper presents Hitachi and JHU’s efforts on developing CHiME-5 system to recognize dinner party speeches recorded by multiple microphone arrays. We newly developed (1) the way to apply multiple data augmentation methods, (2) residual bidirectional long short-term memory, (3) 4-ch acoustic models, (4) multiple-array combination methods, (5) hypothesis deduplication method, and (6) speaker adaptation technique of neural beamformer. As the results, our best system in category B achieved 52.38% of word error rates (WERs) for development set, which corresponded to 35% of relative WER reduction from the state-of-the-art baseline. Our best system also achieved 48.20% of WER for evaluation set, which was the 2nd best result in the CHiME-5 competition.},
+    abstract={This paper presents Hitachi and JHU's efforts on developing CHiME-5 system to recognize dinner party speeches recorded by multiple microphone arrays. We newly developed (1) the way to apply multiple data augmentation methods, (2) residual bidirectional long short-term memory, (3) 4-ch acoustic models, (4) multiple-array combination methods, (5) hypothesis deduplication method, and (6) speaker adaptation technique of neural beamformer. As the results, our best system in category B achieved 52.38% of word error rates (WERs) for development set, which corresponded to 35% of relative WER reduction from the state-of-the-art baseline. Our best system also achieved 48.20% of WER for evaluation set, which was the 2nd best result in the CHiME-5 competition.},
     html={https://www.isca-speech.org/archive/chime_2018/kanda18_chime.html}
 }

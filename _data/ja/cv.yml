@@ -72,6 +72,11 @@
 - title: 表彰
   type: time_table
   contents:
+    - title: <a href="https://www.chimechallenge.org/current/task1/index">The 8th CHiME Speech Separation and Recognition Challenge (CHiME-8) Task 1</a> 2位
+      year: 2024
+      items:
+        - NTTチームとして
+        - 多話者音声のシミュレーションとEEND-VCの事前学習を担当
     - title: <a href="https://acoustics.jp/awards/itakura/">日本音響学会 独創研究奨励賞 板倉記念</a>
       year: 2023
       items:
@@ -82,11 +87,11 @@
         - Hitachi-JHUチームとして
         -  <a href="https://dihardchallenge.github.io/dihard3/system_descriptions/dihard3_system_description_team115.pdf">テクニカルレポート</a>
         - EEND-EDA，EEND as post-processing，システムアンサンブルを担当
-    - title: <a href="https://spandh.dcs.shef.ac.uk//chime_challenge/CHiME5/index.html">The 5th CHiME Speech Separation and Recognition Challenge (CHiME-5)</a> 2位
+    - title: <a href="https://www.chimechallenge.org/challenges/chime5/index">The 5th CHiME Speech Separation and Recognition Challenge (CHiME-5)</a> 2位
       year: 2018
       items:
         - Hitachi-JHUチームとして
-        - <a href="https://spandh.dcs.shef.ac.uk//chime_workshop/chime2018/papers/CHiME_2018_paper_kanda.pdf">テクニカルレポート</a>
+        - <a href="https://www.chimechallenge.org/workshops/chime2018/papers/CHiME_2018_paper_kanda.pdf">テクニカルレポート</a>
         - 音源分離とサーバー冷却🌬️を担当
     - title: <a href="https://docs.google.com/spreadsheets/d/1Ze0xvzf6k0cIzejshiHATuBQaQA7fEZIxNBiIeKTjdk/pubhtml?gid=0&single=true">映像情報メディア学会 優秀研究発表賞</a>
       year: 2017
