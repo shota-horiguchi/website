@@ -5,4 +5,4 @@ inline: true
 lang: ja
 ---
 
-主著1件＆共著1件がSLT 2024に採択されました。
+<a href="https://arxiv.org/abs/2408.17142">主著1件</a>＆共著1件がSLT 2024に採択されました。
