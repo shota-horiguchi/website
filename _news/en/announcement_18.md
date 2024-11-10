@@ -5,4 +5,4 @@ inline: true
 lang: en
 ---
 
-<a href="https://arxiv.org/abs/2408.17142">One first-authored paper</a> and one co-authored paper have been accepted to SLT 2024.
+<a href="https://arxiv.org/abs/2408.17142">One first-authored paper</a> and <a href="https://arxiv.org/abs/2410.11243">one co-authored paper</a> have been accepted to SLT 2024.
