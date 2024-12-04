@@ -72,6 +72,10 @@
 - title: 表彰
   type: time_table
   contents:
+    - title: <a href="https://2024.ieeeslt.org/">IEEE SLT 2024</a> Honorable Mention Award
+      year: 2024
+      items:
+        - 主著論文「Recursive Attentive Pooling for Extracting Speaker Embeddings from Multi-Speaker Embedding」に対して
     - title: <a href="https://www.chimechallenge.org/current/task1/index">The 8th CHiME Speech Separation and Recognition Challenge (CHiME-8) Task 1</a> 2位
       year: 2024
       items:
@@ -123,6 +127,7 @@
     - title: 座長
       items: 
         - IEEE ICASSP 2022 (＠シンガポール)
+        - 日本音響学会 研究発表会 (2024秋)
     - title: 査読
       subcontents:
         - title: 論文誌
@@ -138,9 +143,10 @@
           - Speech Communication (2022-2024)
           - EURASIP Journal on Audio, Speech and Music Processing (2023)
           - Neural Networks (2022)
+          - 日本音響学会誌 (2024)
         - title: 国際会議
           items:
-          - ICASSP (2019-2024)
+          - ICASSP (2019-2025)
           - INTERSPEECH (2024)
           - ASRU (2023)
           - EUSIPCO (2021-2023)
