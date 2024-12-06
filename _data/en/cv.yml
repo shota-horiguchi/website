@@ -72,7 +72,7 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - title: Honorable Mention Award at <a href="https://2024.ieeeslt.org/">IEEE SLT 2024</a>
+    - title: Honorable Mention Award at <a href="https://2024.ieeeslt.org/">IEEE Spoken Language Technology Workshop (SLT) 2024</a>
       year: 2024
       items:
         - For the paper entitled "Recursive Attentive Pooling for Extracting Speaker Embeddings from Multi-Speaker Embedding"

@@ -5,4 +5,4 @@ inline: true
 lang: ja
 ---
 
-IEEE SLT 2024にてHonorable mention Awardを受賞しました。
+<a href="https://arxiv.org/abs/2408.17142">主著論文</a>がIEEE SLT 2024にてHonorable Mention Awardを受賞しました。
