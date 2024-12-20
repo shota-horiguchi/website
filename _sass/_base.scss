@@ -749,6 +749,10 @@ footer.sticky-bottom {
     }
   }
 
+  ol.bibliography:empty {
+    display: none;
+  }
+
   .pubtype-1 {
     .badge {
       color: var(--pubtype1-color) !important;
